@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BootStarp</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/Style.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head> 
+    <body style="background-color:cadetblue !important;">
+       <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <img src="images/logo.png" alt="" width="50px">
+            </div>
+            <div class="navbar-brand">
+                <a>Arak</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link2</a>
+                    </li>
+                    <li class="nav-item dropdown text-black-50">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Down</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">python</li>
+                            <li class="dropdown-item">Java</li>
+                            <hr class="dropdown-divier">
+                            <li class="dropdown-item">HTML</li>
+                            <li class="dropdown-item">CSS</li>
+                            <li class="dropdown-item">Java Script</li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link3</a>
+                    </li>
+                </ul>
+                <form action="" class="d-flex">
+                    <input type="text" class="form-control me-2" placeholder="Search">
+                    <button class="btn btn-outline-light me-2">Search</button>
+                    <button class="btn btn-outline-light">Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="carousel slide" data-bs-ride="carousel" id="demo">
+        <div class="carousel-inner">
+            <div class="carousel-item active" id="Modern">
+                <img src="images/Modern.png" alt="" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item" id="Redl">
+                <img src="images/Redl.png" alt="" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item" id="White">
+                <img src="images/White.png" alt="" class="d-block" style="width:100%">
+            </div>
+        </div>
+        <div class="carousel-indicators">
+            <button data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-control">
+            <button class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="card d-grid text-bg-dark" style="border-radius: 0;">
+            <div class="card-body">
+                <h1>Welcome</h1>
+                <span class="d-block">Your destination for game optimization.</span>
+                <botton class="btn btn-primary mt-3">Get Started</botton>
+            </div>
+        </div>
+    </div>
+    <div>
+    <hr>
+    <div class="container-fluid p-0">
+        <h1 class="text-bg-secondary text-center m-0 p-3">Programming Language</h1>   
+    </div>
+    <div class="accordion" id="accordion">
+        <div class="card" style="border-radius:0;">
+            <div class="card-header">
+                <a class="btn"  data-bs-toggle="collapse" href="#collapseone">
+                    HTML Programming language
+                </a>
+            </div>
+            <div id="collapseone" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Python is powerful... and fast, plays well with others,runs everywhere, is friendly & easy to learn, is Open
+                </div>
+            </div>
+        </div>
+        <div class="card" style="border-radius:0;">
+            <div class="card-header">
+                <a class="collapsed btn"  data-bs-toggle="collapse" href="#collapsetwo">
+                    HTML Programming language
+                </a>
+            </div>
+            <div id="collapsetwo" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Python is powerful... and fast, plays well with others,runs everywhere, is friendly & easy to learn, is Open
+                </div>
+            </div>
+        </div>
+        <div class="card" style="border-radius:0;">
+            <div class="card-header">
+                <a class="collapsed btn"  data-bs-toggle="collapse" href="#collapsethree">
+                    HTML Programming language
+                </a>
+            </div>
+            <div id="collapsethree" class="collapse" data-bs-parent="#accordion">
+                <div class="card-body">
+                    Python is powerful... and fast, plays well with others,runs everywhere, is friendly & easy to learn, is Open
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    </div>
+    <div class="container-fluid p-0">
+        <h1 class="text-bg-secondary text-center m-0 p-3">Python is very easy</h1>   
+    </div>
+    <div class="card text-bg-dark card-hover" style="border-radius:0;">
+        <div class="card-body">
+            <h4>try the code below from
+            <a href="">here</a>
+            </h4>
+            <button class="btn btn-sm btn-outline-light">Copy</button>
+            <pre class="text-info"> 
+                name = input('enter your name: '); print("Hello" + name)
+            </pre>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid p-0">
+        <h1 class="text-bg-secondary text-center m-0 p-3">Jave is very easy</h1>   
+    </div>
+    <div class="card text-bg-dark card-hover" style="border-radius:0;">
+        <div class="card-body">
+            <h4>try the code below from
+            <a href="">here</a>
+            </h4>
+            <button class="btn btn-sm btn-outline-light">Copy</button>
+            <pre class="text-info"> 
+                name = input('enter your name: '); print("Hello" + name)
+            </pre>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid p-0">
+        <h1 class="text-bg-secondary text-center m-0 p-3">JaveScript is very easy</h1>   
+    </div>
+    <div class="card text-bg-dark card-hover" style="border-radius:0;">
+        <div class="card-body">
+            <h4>try the code below from
+            <a href="">here</a>
+            </h4>
+            <button class="btn btn-sm btn-outline-light">Copy</button>
+            <pre class="text-info"> 
+                name = input('enter your name: '); print("Hello" + name)
+            </pre>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid p-0">
+        <h1 class="text-bg-secondary text-center m-0 p-3">Good Basic</h1>   
+    </div>
+    <div class="row justify-content-center">
+        <div class="card col-lg-3 col-md-4 col-sm-6 m-2 mt-5 p-0">
+            <div class="card-body">
+                <img class="card-img-top" src="images/pes.jpg" alt="">
+                <h4 class="mt-3">Fifa 10</h4>
+                <p>Gameplay based on intelligence, plus a completely overhauled Manager Mode that includes more than 50 major improvements.</p>
+                <button class="btn btn-primary">download</button>
+            </div>
+        </div>
+        <div class="card text-bg-dark col-lg-3 col-md-4 col-sm-6 m-2 mt-5 p-0">
+            <div class="card-body">
+                <img class="card-img-top" src="images/hell.jpg" alt="">
+                <h4 class="mt-3">God Of War</h4>
+                <p>Gameplay consists of frequent combat scenarios with characters punching and kicking or using their axe to slash/ stab/ impale enemies.</p>
+                <button class="btn btn-primary">download</button>
+            </div>
+        </div>
+        <div class="card col-lg-3 col-md-4 col-sm-6 m-2 mt-5 p-0">
+            <div class="card-body">
+                <img class="card-img-top" src="images/flag.jpg" alt="">
+                <h4 class="mt-3">Assassins Creed&reg;</h4>
+                <p>Pirates rule the Caribbean and have established their own lawless Republic where corruption, greediness and cruelty are commonplace.</p>
+                <button class="btn btn-primary">download</button>
+            </div>
+        </div>
+        <div class="card col-lg-3 col-md-4 col-sm-6 m-2 mt-5 p-0">
+            <div class="card-body">
+                <img class="card-img-top" src="images/fight.jpg" alt="">
+                <h4 class="mt-3">Infamouse</h4>
+                <p>Players will experience what happens when a real person suddenly starts developing super powers.</p>
+                <button class="btn btn-primary">download</button>
+            </div>
+        </div>
+        <div class="card text-bg-dark col-lg-3 col-md-4 col-sm-6 m-2 mt-5 p-0">
+            <div class="card-body">
+                <img class="card-img-top" src="images/cars.jpg" alt="">
+                <h4 class="mt-3">The Crew&trade;2</h4>
+                <p>Take on the American motorsports scene as you explore and dominate the land, air, and sea across the entire USA.</p>
+                <button class="btn btn-primary">download</button>
+            </div>
+        </div>
+        <div class="card col-lg-3 col-md-4 col-sm-6 m-2 mt-5 p-0">
+            <div class="card-body">
+                <img class="card-img-top" src="images/action.jpg" alt="">
+                <h4 class="mt-3">Taken&trade;8</h4>
+                <p>TEKKEN 8, the brand-new entry in the legendary TEKKEN franchise, brings the fight to the new generation!</p>
+                <button class="btn btn-primary">download</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid p-0">
+        <h1 class="text-bg-secondary text-center m-0 p-3">Thanks For</h1>   
+    </div>
+    <div class="row justify-content-center">
+        <div class="card col-lg-3 col-md-4 col-sm-6 m-2 mt-5 p-0">
+            <div class="card-body">
+                <img class="card-img-top" src="images/Redl.png" alt="">
+                <h4 class="mt-3">Ahmed tarek</h4>
+            </div>
+        </div>
+        <div class="card col-lg-3 col-md-4 col-sm-6 m-2 mt-5 p-0">
+            <div class="card-body">
+                <img class="card-img-top" src="images/Modern.png" alt="">
+                <h4 class="mt-3">Ahmed tarek</h4>
+            </div>
+        </div>
+        <div class="card col-lg-3 col-md-4 col-sm-6 m-2 mt-5 p-0">
+            <div class="card-body">
+                <img class="card-img-top" src="images/ps4.jpg" alt="">
+                <h4 class="mt-3">Ahmed tarek</h4>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid p-0">
+        <h1 class="text-bg-secondary text-center m-0 p-3">Join Us</h1>   
+    </div>
+    <div class="row justify-content-center">
+        <div class="card text-bg-dark col-lg-3 col-md-4 col-sm-6 m-2 mt-5 p-0">
+            <div class="card-body text-center">
+                <h6 class="mt-3">Ahmed tarek</h6>
+                <i class="fab fa-facebook-square display-6"></i>
+                <br>
+                <a href="">Go to link</a>
+            </div>
+        </div>
+        <div class="card text-bg-dark col-lg-3 col-md-4 col-sm-6 m-2 mt-5 p-0">
+            <div class="card-body text-center">
+                <h6 class="mt-3">Ahmed tarek</h6>
+                <i class="fab fa-facebook-square display-6"></i>
+                <br>
+                <a href="">Go to link</a>
+            </div>
+        </div>
+        <div class="card text-bg-dark col-lg-3 col-md-4 col-sm-6 m-2 mt-5 p-0">
+            <div class="card-body text-center">
+                <h6 class="mt-3">Ahmed tarek</h6>
+                <i class="fab fa-facebook-square display-6"></i>
+                <br>
+                <a href="">Go to link</a>
+            </div>
+        </div>
+    </div>
+    <footer class="row text-bg-dark text-center mt-5">
+        <div class="col-lg-4 p-5 py-0">
+            <hr>
+            <h3>Good Company</h3>
+            <hr>
+            <p>Tel:01144119253</p>
+            <p>Tel:01144119253</p>
+            <p>Tel:01144119253</p>
+        </div>
+        <div class="col-lg-4 p-5 py-0">
+            <hr>
+            <h3>Good Company</h3>
+            <hr>
+            <p>Tel:01144119253</p>
+            <p>Tel:01144119253</p>
+            <p>Tel:01144119253</p>
+        </div>
+        <div class="col-lg-4 p-5 py-0">
+            <hr>
+            <h3>Good Company</h3>
+            <hr>
+            <p>Tel:01144119253</p>
+            <p>Tel:01144119253</p>
+            <p>Tel:01144119253</p>
+        </div>
+        <hr>
+        <p class="text-center opacity-50">
+            Copyright &copy; 2020 Shaimaa Hassan Elsaeed, Good Company. All rights
+        </p>
+        <hr>
+    </footer>
+    <!-- <script src="js/script.js"></script> -->
+</body>
+</html>
